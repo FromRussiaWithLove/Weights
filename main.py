@@ -31,6 +31,7 @@ def main():
     except Exception as e:
         print('Error', e)
         return
+    # Создаем пустой список для решения
     sol = [0,0,0,0,0,0,0,0,0,0]
     # Выводим шапку таблицы
     print('1кг\t2кг\t3кг\t4кг\t5кг\t6кг\t7кг\t8кг\t9кг\t')
