@@ -24,12 +24,9 @@ def getWeight(weight,last,kratn,sol):
 def main():
     # Создаем разновес
     kratn = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-    try:
-        for i in range(1,10):
-            kratn[i] = int(input('Введите количество гирь весом', i, 'кг'))
+    for i in range(1,10):
+        kratn[i] = int(input('Введите количество гирь весом', i, 'кг'))
         weight = int(input('Введите вес, который необходимо набрать'))
-    except Exception as e:
-        print('Error', e)
     sol = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
     # Выводим шапку таблицы
     print('1кг\t2кг\t3кг\t4кг\t5кг\t6кг\t7кг\t8кг\t9кг\t')
